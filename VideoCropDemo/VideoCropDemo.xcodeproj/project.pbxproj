@@ -17,6 +17,7 @@
 		21BFE14D1C7C3B1D00E07C53 /* VideoCropDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BFE14C1C7C3B1D00E07C53 /* VideoCropDemoUITests.m */; };
 		21BFE15E1C7C3B3500E07C53 /* DTVideoEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BFE15B1C7C3B3500E07C53 /* DTVideoEngine.m */; };
 		21BFE15F1C7C3B3500E07C53 /* SCPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BFE15D1C7C3B3500E07C53 /* SCPlayer.m */; };
+		21BFE1621C7C3BE300E07C53 /* ASScreenRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BFE1611C7C3BE300E07C53 /* ASScreenRecorder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		21BFE15B1C7C3B3500E07C53 /* DTVideoEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTVideoEngine.m; sourceTree = "<group>"; };
 		21BFE15C1C7C3B3500E07C53 /* SCPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCPlayer.h; sourceTree = "<group>"; };
 		21BFE15D1C7C3B3500E07C53 /* SCPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCPlayer.m; sourceTree = "<group>"; };
+		21BFE1601C7C3BE300E07C53 /* ASScreenRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASScreenRecorder.h; sourceTree = "<group>"; };
+		21BFE1611C7C3BE300E07C53 /* ASScreenRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASScreenRecorder.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 		21BFE1261C7C3B1C00E07C53 /* VideoCropDemo */ = {
 			isa = PBXGroup;
 			children = (
+				21BFE1601C7C3BE300E07C53 /* ASScreenRecorder.h */,
+				21BFE1611C7C3BE300E07C53 /* ASScreenRecorder.m */,
 				21BFE15A1C7C3B3500E07C53 /* DTVideoEngine.h */,
 				21BFE15B1C7C3B3500E07C53 /* DTVideoEngine.m */,
 				21BFE15C1C7C3B3500E07C53 /* SCPlayer.h */,
@@ -286,6 +291,7 @@
 				21BFE12F1C7C3B1D00E07C53 /* ViewController.m in Sources */,
 				21BFE15F1C7C3B3500E07C53 /* SCPlayer.m in Sources */,
 				21BFE12C1C7C3B1D00E07C53 /* AppDelegate.m in Sources */,
+				21BFE1621C7C3BE300E07C53 /* ASScreenRecorder.m in Sources */,
 				21BFE1291C7C3B1D00E07C53 /* main.m in Sources */,
 				21BFE15E1C7C3B3500E07C53 /* DTVideoEngine.m in Sources */,
 			);
@@ -513,6 +519,7 @@
 				21BFE1531C7C3B1D00E07C53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		21BFE1541C7C3B1D00E07C53 /* Build configuration list for PBXNativeTarget "VideoCropDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +528,7 @@
 				21BFE1561C7C3B1D00E07C53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		21BFE1571C7C3B1D00E07C53 /* Build configuration list for PBXNativeTarget "VideoCropDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +537,7 @@
 				21BFE1591C7C3B1D00E07C53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
